@@ -1,12 +1,11 @@
 <h1>Welcome!</h1>
 
 <p>
-    You are in a dark room with two doors. There are spider webs around you. ...
+    Thank you for playing our game.
 </p>
 
-<p>
-    Which door would you like to enter?
-</p>
-
-<a href="/door1">Door 1</a>
-<a href="/door2">Door 2</a>
+<form action="/begin" method="post">
+    Please enter your name:
+    <input type="text" name="name">
+    <input type="submit" value="Start">
+</form>
