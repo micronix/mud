@@ -1,0 +1,12 @@
+get "/"
+- describe first room
+- choice between two doors
+
+get "/door1"
+- door1 monster
+- choice run away or fight
+
+get "/fight"
+- fighting won or lost
+- when defeating moster give treasure
+- when loosing die
